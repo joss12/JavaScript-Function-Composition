@@ -1,0 +1,23 @@
+{
+  "name": "compose-engine",
+  "version": "1.0.0",
+  "description": "A tiny JavaScript function composition engine with pipe, compose, and tap.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "keywords": [
+    "function-compositin",
+    "pipe",
+    "compose",
+    "tap",
+    "javaScript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "jest": "^30.2.0"
+  }
+}
