@@ -2,6 +2,8 @@
 # JavaScript Function Composition Engine
 
 A powerful, lightweight functional programming engine for JavaScript with:
+![Coverage](https://img.shields.io/badge/coverage-100%25-brightgreen)
+
 
 - **pipe()** – left‑to‑right composition  
 - **compose()** – right‑to‑left composition  
@@ -119,6 +121,8 @@ const value = await Pipeline()
 
 ```sh
 npm test
+npm run test:coverage
+coverage/lcov-report/index.html
 ```
 
 Includes full Jest coverage for:
