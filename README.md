@@ -121,6 +121,7 @@ const value = await Pipeline()
 
 ```sh
 npm test
+node playground.js\n
 npm run test:coverage
 coverage/lcov-report/index.html
 ```
